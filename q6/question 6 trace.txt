@@ -1,0 +1,9 @@
+ --- modulename: tripleit, funcname: <module>
+tripleit.py(1): def tripleit(number):
+tripleit.py(6): number = 3.3
+tripleit.py(7): if __name__ == '__main__':
+tripleit.py(8):     newNumber = tripleit(number)
+ --- modulename: tripleit, funcname: tripleit
+tripleit.py(2):     returnValue = number * 3
+tripleit.py(3):     number = number + 1
+tripleit.py(4):     return returnValue

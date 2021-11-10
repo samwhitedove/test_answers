@@ -1,0 +1,35 @@
+main.py(1): def formatNumber (number):
+main.py(9): if __name__ == '__main__':
+main.py(10):     c = 5
+main.py(11):     p = 5
+main.py(12):     output = ""
+main.py(13):     while c < 20:
+main.py(14):         temp = c + p
+main.py(15):         p = c
+main.py(16):         c = temp
+main.py(17):         output = output + formatNumber(c)
+ --- modulename: main, funcname: formatNumber
+main.py(2):     if number %2 == 1:
+main.py(5):         frm = '-'+str(number)+'-'
+main.py(6):     return frm
+main.py(13):     while c < 20:
+main.py(14):         temp = c + p
+main.py(15):         p = c
+main.py(16):         c = temp
+main.py(17):         output = output + formatNumber(c)
+ --- modulename: main, funcname: formatNumber
+main.py(2):     if number %2 == 1:
+main.py(3):         frm = '--'+str(number)+ '-'
+main.py(6):     return frm
+main.py(13):     while c < 20:
+main.py(14):         temp = c + p
+main.py(15):         p = c
+main.py(16):         c = temp
+main.py(17):         output = output + formatNumber(c)
+ --- modulename: main, funcname: formatNumber
+main.py(2):     if number %2 == 1:
+main.py(3):         frm = '--'+str(number)+ '-'
+main.py(6):     return frm
+main.py(13):     while c < 20:
+main.py(18):     print(output)
+-10---15---25-
